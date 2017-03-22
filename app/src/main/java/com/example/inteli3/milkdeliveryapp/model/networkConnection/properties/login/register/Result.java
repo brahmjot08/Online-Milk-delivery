@@ -1,18 +1,19 @@
-package com.example.inteli3.milkdeliveryapp.model.networkConnection.properties.login;
+package com.example.inteli3.milkdeliveryapp.model.networkConnection.properties.login.register;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by intel i3 on 3/7/2017.
+ * Created by intel i3 on 3/16/2017.
  */
 public class Result {
+
     @SerializedName("status")
     @Expose
-    private int status;
+    public int status;
     @SerializedName("id")
     @Expose
-    private int id;
+    private String id;
     @SerializedName("message")
     @Expose
     private String message;
@@ -25,11 +26,11 @@ public class Result {
         this.status = status;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -40,4 +41,6 @@ public class Result {
     public void setMessage(String message) {
         this.message = message;
     }
+
 }
+

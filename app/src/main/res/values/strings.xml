@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Milk Delivery App</string>
+    <string name="Email">Email</string>
+    <string name="password">password</string>
+    <string name="forgot_password">forgot_password</string>
+    <string name="click_here">click_here</string>
+    <string name="don_t_have_an_account_plz_register">don_t_have_an_account_plz_register</string>
+    <string name="signinnow">signinnow</string>
+    <string name="wrongusernamepassword">password is wrong</string>
+    <string name="loadingPleasewait">loading plz wait</string>
+    <string name="emailempty">plz enter email</string>
+    <string name="passwordEmpty">plz enter password</string>
+    <string name="pleaseEnterValidEmail">enter valid email</string>
+    <string name="UserName">UserName</string>
+    <string name="MobileNumber">MobileNumber</string>
+    <string name="signUpNow">signUpNow</string>
+    <string name="allreadyhaveaccount">allreadyhaveaccount</string>
+    <string name="usernameempty">plz write user name</string>
+    <string name="phoneEmpty">plz enter the phone number</string>
+    <string name="thisemailidallreadyexist">this mailid already exist</string>
+    <string name="RegistrationSuccessful">Registration is Successful</string>
+    <string name="registrationProcess">Loading.......</string>
+    <string name="feedback">There is no internet connection</string>
+    <string name="oK">ok</string>
+    <string name="ok">OK</string>
+    <string name="internetConnectionMessage">No internet connection</string>
+</resources>

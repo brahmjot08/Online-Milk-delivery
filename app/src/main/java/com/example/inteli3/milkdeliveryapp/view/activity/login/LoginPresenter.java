@@ -104,6 +104,7 @@ loginView.startProgress();
 
             @Override
             public void onFailure(Call<LoginResultPrp> call, Throwable t) {
+                System.out.println("error"+t.getLocalizedMessage());
                 loginView.stopProgress();
                 loginView.showFeedbackMessage(activity.getString(R.string.wrongusernamepassword));
             }
